@@ -1,4 +1,8 @@
 # Coding 101
 
 - Evi
-- Flo
+- Flo 🙄
+- Ben
+
+
+# next steps 
