@@ -1,8 +1,9 @@
 # Coding 101
 
-- Evi
+- Evi 🤷‍♀️
 - Flo 🙄
-- Ben
+- Ben 😎
 
 
 # next steps 
+- lernen lernen popernen
