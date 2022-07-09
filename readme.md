@@ -7,6 +7,4 @@
 
 # next steps 
 - lernen lernen popernen
-lkjlkjlkl
-sdfsdfsfd
-sdfsdfsdfds
+- bitte ordentlich!
