@@ -3,6 +3,7 @@
 - Evi 🤷‍♀️
 - Flo 🙄
 - Ben 😎
+- Kati :) 
 
 
 # next steps 
