@@ -18,4 +18,6 @@
 | `Judy` | *Evey* | **Flo** | Kati|
 | *Function*: WebDesigner | *Function*: WebDesigner | *Function*: WebDesigner | *Function*: WebDesigner |
 
-
+| Woche 1 | Woche 2 | Woche 3 |
+| :-----: | :-----: | :-----: |
+| **Markdown** | html | Javascript |
