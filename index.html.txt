@@ -1,8 +1,8 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
-<header>
+<head>
 <title>Tabelle in HTML</title>
-</header>
+</head>
 <body>
 
 <table>
