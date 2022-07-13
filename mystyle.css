@@ -1,10 +1,29 @@
 
 body {
-	backgound-color: #FFD9B0;
+	background-color: #FFD9B0;
 }
 
 .content {
 	width: 80%;
-	float: center;
 	text-align: center;
+}
+
+table {
+	width: 80%;
+	border-collapse: collapse;
+}
+
+th {
+	height: 70px;
+}
+
+td {
+	height: 50px;
+	vertical-align: middle;
+}
+
+tr:hover {background-color: coral;}
+
+table, thead, tr, th, td {
+	border: 1px solid;
 }
