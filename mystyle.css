@@ -3,9 +3,21 @@ body {
 	background-color: #FFD9B0;
 }
 
+.footer, .header {
+	background-color: coral;
+	height: 30px;
+}
+
 .content {
 	width: 80%;
 	text-align: center;
+}
+
+
+
+img {
+	float: right;
+	margin: 0px 0px 15px 20px;
 }
 
 table {
