@@ -56,8 +56,22 @@ article {
 	margin-left: 30px;
 }
 
-img {
-	flex-flow: right;
+.article1 {
+	-webkit-flex: 1.5;
+	-ms-flex: 1.5;
+	flex: 1.5;
+	padding: 10px;
+	margin-left: 30px;
+}
+
+.quotation {
+	-webkit-flex: 1.5;
+	-ms-flex: 1.5;
+	flex: 1.5;
+	padding: 10px;
+	margin-left: 30px;
+	align-self: center;
+	font-style: italic;
 }
 
 .border-box {
@@ -67,6 +81,8 @@ img {
 	padding: 20px;
 	margin-top: 25px;
 	border: 2px solid coral;
+	background-color: #068382;
+	color:  white;
 }
 
 .table-box {
