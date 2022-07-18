@@ -3,25 +3,82 @@ body {
 	background-color: #FFD9B0;
 }
 
-.footer, .header {
+header {
 	background-color: coral;
-	height: 30px;
-}
-
-.content {
-	width: 80%;
+	padding: 30px;
 	text-align: center;
+	font-size: 30px;
+	color: white;
 }
 
 
+* {
+	box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p, li {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+a {
+	text-decoration: none;
+	color: coral;
+}
+
+section {
+	display: -webkit-flex;
+	display: flex;
+	margin-left: 30px;
+}
+
+nav {
+	-webkit-flex: 1;
+	ms-flex: 1;
+	flex: 1;
+	padding: 20px;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+article {
+	-webkit-flex: 3;
+	-ms-flex: 3;
+	flex: 3;
+	padding: 10px;
+	margin-left: 30px;
+}
 
 img {
-	float: right;
-	margin: 0px 0px 15px 20px;
+	flex-flow: right;
+}
+
+.border-box {
+	-webkit-flex: 1;
+	ms-flex: 1;
+	flex: 1;
+	padding: 20px;
+	margin-top: 25px;
+	border: 2px solid coral;
+}
+
+.table-box {
+	-webkit-flex: 3;
+	-ms-flex: 3;
+	flex: 3;
+	padding: 10px;
+	margin-left: 30px;
 }
 
 table {
-	width: 80%;
+	width: 100%;
 	border-collapse: collapse;
 }
 
@@ -39,3 +96,21 @@ tr:hover {background-color: coral;}
 table, thead, tr, th, td {
 	border: 1px solid;
 }
+
+footer {
+	background-color: coral;
+	padding: 20px;
+	margin-top: 15px;
+	text-align: right;
+	font-size: 15px;
+	color: white;
+}
+
+
+/* Responsive Layout - section changes to in top instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+ }
