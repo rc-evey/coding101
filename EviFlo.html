@@ -2,10 +2,20 @@
 <html>
 <head>
 <style>
+body {
+	background-color: #dcdcdc
+}
 h1 {
 	font-family: verdana;
 	border: 1px solid darkorange;
 	padding: 20px;
+}
+table, th, td {
+	border: 1px solid white;
+	border-collapse: collapse;
+}
+th, td {
+	background-color: #96D4D4;
 }
 </style>
 <title>Test-Seite</title>
@@ -14,10 +24,10 @@ h1 {
 <h1>Lern-Woche 1</h1>
 <p style="text-align:center;">Das ist unser erster HTML-Versuch.</p>
 <p>Wir lernen mit 
-<a href="https://www.w3schools.com/html/html_editors.asp">Dieser Seite</a>
+<a href="https://www.w3schools.com/html/html_editors.asp">dieser Seite</a>
 <h1>Lern-Woche 2</h2>
 Das klappt wirklich 
-<mark>außerordentlich</mark> <br> gut. 
+<mark>sehr</mark> <br> gut. 
 <pre>
 Wir probieren das jetzt mal aus.
 Wie das aussieht.
@@ -27,5 +37,19 @@ Wie das aussieht.
 Die Farben sind <del style="color:blue;">blau</del> 
 <ins style="color:red;">rot</ins>
 </p>
+<table style="width:100%;">
+	<tr>
+		<th style="width:10%; background-color:#404040; color:#ffffff;">*empty*</th>
+		<th>Woche 1</th>
+		<th>Woche 2</th>
+		<th>Woche 3</th>
+	</tr>
+	<tr>
+		<th>Wer?</th>
+		<td>Judy</td>
+		<td>Flo</td>
+		<td>Kati</td>
+	</tr>
+</table>
 </body>
 </html>
