@@ -2,6 +2,24 @@
 <html>
 <head>
 <style>
+ul {
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #7E7D7C;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color:  white;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #292828;
+}
 body {
 	background-color: #dcdcdc
 }
@@ -15,12 +33,23 @@ table, th, td {
 	border-collapse: collapse;
 }
 th, td {
+	padding: 15px;
+}
+tr:hover {
 	background-color: #96D4D4;
 }
 </style>
 <title>Test-Seite</title>
 </head>
 <body>
+<ul>
+	<li><a href="#home">Home</a></li>
+	<li><a href="#Lek1">Lektion 1</a></li>
+	<li><a href="#Lek2">Lektion 2</a></li>
+	<li><a href="Lek3">Lektion 3</a></li>
+	<li><a href="Lek4">Lektion 4</a></li>
+</ul>
+
 <h1>Lern-Woche 1</h1>
 <p style="text-align:center;">Das ist unser erster HTML-Versuch.</p>
 <p>Wir lernen mit 
@@ -38,6 +67,7 @@ Die Farben sind <del style="color:blue;">blau</del>
 <ins style="color:red;">rot</ins>
 </p>
 <table style="width:100%;">
+	<caption style="font-size:200%;font-family:verdana;">Wochenplan</caption>
 	<tr>
 		<th style="width:10%; background-color:#404040; color:#ffffff;">*empty*</th>
 		<th>Woche 1</th>
@@ -49,6 +79,12 @@ Die Farben sind <del style="color:blue;">blau</del>
 		<td>Judy</td>
 		<td>Flo</td>
 		<td>Kati</td>
+	</tr>
+	<tr>
+		<th>Was?</th>
+		<td>HTML</td>
+		<td>CSS</td>
+		<td>Python</td>
 	</tr>
 </table>
 </body>
